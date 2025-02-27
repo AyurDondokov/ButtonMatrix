@@ -7,4 +7,4 @@
 - **TURN_LEFT**: Робот поворачивает влево с изменением положения.
 - **BACK**: Робот движется назад.
 
-![Diagram of State Machine](StateMachine/StateMachine.png)
+![Diagram of State Machine](StateMachine.png)
