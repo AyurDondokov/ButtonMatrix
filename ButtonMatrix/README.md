@@ -1,10 +1,10 @@
 # ButtonMatrix
-## How the program works:
-- Configuring pins:
-Strings (FIRST_ROW and SECOND_ROW) are configured as outputs.
-The columns (FIRST_COL and SECOND_COL) are configured as pull-up inputs.
-- Scanning buttons:
-The program sequentially sets rows to different states (0 or 1) and checks if there is a closure between the row and column.
-If there is a short circuit, then the corresponding button is pressed.
-- Output of the result:
-If at least one button was pressed, the program displays the message "Pressed button(s):" and the numbers of the pressed buttons separated by a space.
+## Как работает программа:
+- Настройка выводов:
+Строки (FIRST_ROW и SECOND_ROW) настраиваются как выходные данные.
+Столбцы (FIRST_COL и SECOND_COL) сконфигурированы как подтягивающие входные данные.
+- Кнопки сканирования.:
+Программа последовательно переводит строки в разные состояния (0 или 1) и проверяет, есть ли замыкание между строкой и столбцом.
+Если происходит короткое замыкание, то нажимается соответствующая кнопка.
+- Вывод результата:
+Если была нажата хотя бы одна кнопка, программа выводит сообщение "Нажата кнопка (ы):" и номера нажатых кнопок, разделенные пробелом.
