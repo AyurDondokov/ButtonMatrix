@@ -22,7 +22,12 @@ void setup() {
 }
 
 void loop() {
-  int buttonStates[9] = {0};
+  check_state();
+}
+
+
+ void check_state(){
+ int buttonStates[9] = {0};
 
   for (int i = 0; i < 3; i++) {
     digitalWrite(FIRST_ROW, rowConditions[i][0]);
@@ -62,4 +67,4 @@ void loop() {
   }
 
   delay(100);
-}
+ }
